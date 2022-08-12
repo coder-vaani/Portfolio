@@ -196,7 +196,24 @@ main {
     border-radius: 10px;
 }
 
+/* Small screen intro */
+.intro-small {
+    width: auto;
+    height: auto;
+}
 
+.intro-small img {
+    width: 60%;
+    height: auto;
+    border: 2px solid crimson;
+    margin: 10% 20% 0 20%;
+    border-radius: 50%;
+}
+
+.small-name {
+    margin-top: 10%;
+    margin-left: 10%;
+}
 /* Contact me */
 
 .links {
@@ -269,6 +286,9 @@ footer {
         width: 100%;
         margin-left: 0;
     }
+    .intro {
+        font-size: smaller;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -283,4 +303,9 @@ footer {
     }
 }
 
+@media screen and (min-width: 1000px) {
+    .intro-small {
+        display: none;
+    }
+}
 /* Media queries ends */
