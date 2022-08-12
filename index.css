@@ -124,8 +124,8 @@ main {
     padding: 40px;
 }
 
-#about{
-    font-size: 120%;
+#about {
+    font-size: 130%;
 }
 
 #list-items li {
@@ -161,7 +161,7 @@ main {
     margin-left: 73px;
 }
 
-/* Intro */
+/* Big screen Intro */
 .intro {
     height: auto;
     width: 100%;
@@ -198,8 +198,9 @@ main {
 
 /* Small screen intro */
 .intro-small {
-    width: auto;
+    width: 100%;
     height: auto;
+    text-align: center;
 }
 
 .intro-small img {
@@ -212,8 +213,9 @@ main {
 
 .small-name {
     margin-top: 10%;
-    margin-left: 10%;
+    font-size: 30px;
 }
+
 /* Contact me */
 
 .links {
@@ -286,9 +288,13 @@ footer {
         width: 100%;
         margin-left: 0;
     }
+
     .intro {
-        font-size: smaller;
+        display: none;
     }
+
+
+
 }
 
 @media screen and (max-width: 800px) {
@@ -308,4 +314,5 @@ footer {
         display: none;
     }
 }
+
 /* Media queries ends */
