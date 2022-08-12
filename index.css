@@ -124,8 +124,7 @@ main {
     padding: 40px;
 }
 
-#about,
-#head {
+#about{
     font-size: 120%;
 }
 
@@ -141,7 +140,7 @@ main {
 #head {
     font-weight: bold;
     color: crimson;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #desc {
@@ -269,6 +268,18 @@ footer {
     .content {
         width: 100%;
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .full {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .half {
+        display: none;
     }
 }
 
