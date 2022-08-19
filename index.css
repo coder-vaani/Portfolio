@@ -216,6 +216,68 @@ main {
     font-size: 30px;
 }
 
+.front-icons {
+    margin: 10px;
+    padding: 5px;
+}
+
+#resumepdf {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#resumeicon {
+    font-size: 180%;
+}
+
+/* List style */
+ul {
+    list-style: none;
+}
+
+ul #tick:before {
+    content: '✔';
+    padding-right: 5px;
+    color: green;
+}
+
+ul #dot:before {
+    content: '👉';
+    padding-right: 5px;
+    color: yellow;
+}
+
+#time:before {
+    content: '⏳';
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+#marks:before {
+    content: '🏅';
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+#subjects:before {
+    content: '📚';
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+#school:before {
+    content: '🏫';
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.degree:before {
+    content: '🎓';
+    padding-right: 5px;
+}
+
 /* Contact me */
 
 .links {
@@ -285,12 +347,29 @@ footer {
     }
 
     .content {
+        font-size: 95%;
         width: 100%;
         margin-left: 0;
     }
 
+    #head {
+        font-size: 120%;
+    }
+
+    footer {
+        font-size: 80%;
+    }
+
+    #about {
+        font-size: 120%;
+    }
+
     .intro {
         display: none;
+    }
+
+    .inner-content {
+        padding: 20px;
     }
 
 
