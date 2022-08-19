@@ -229,7 +229,7 @@ main {
 }
 
 #resumeicon {
-    font-size: 180%;
+    font-size: 210%;
 }
 
 /* List style */
@@ -347,7 +347,7 @@ footer {
     }
 
     .content {
-        font-size: 95%;
+        font-size: 100%;
         width: 100%;
         margin-left: 0;
     }
@@ -357,11 +357,11 @@ footer {
     }
 
     footer {
-        font-size: 80%;
+        font-size: 90%;
     }
 
     #about {
-        font-size: 120%;
+        font-size: 130%;
     }
 
     .intro {
