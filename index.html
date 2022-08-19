@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
     <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -50,6 +52,12 @@
                     <h2 id="name">Ashish Ranjan</h2>
                     <h5>Final year Student <br>B. Tech (2019-23)</h5>
                 </div>
+                <div class="front-icons">
+                    <a href="AshishRanjan.pdf" target="_blank" id="resumepdf"><span class="material-symbols-outlined"
+                            id="resumeicon">
+                            picture_as_pdf
+                        </span></a>
+                </div>
             </div>
             <div class="intro">
                 <div class="intro-desc">
@@ -85,39 +93,38 @@
             <div class="education" id="edu">
                 <div class="heading">Educational Qualifications</div>
                 <div class="inner-content">
-                    <p id="head">Bachelor of Technology (B. Tech)</p>
+                    <p id="head" class="degree">Bachelor of Technology (B. Tech)</p>
                     <p id="desc">
                     <ul id="list-items">
-                        <li>August 2019 - July 2023</li>
-                        <li>Computer Science Engineering (CSE)</li>
-                        <li><span class="high-name">College - </span> Neotia Institute of Technology, Management and
-                            Science <br><span class="tab1"></span><i>Kolkata, West Bengal</i></li>
-                        <li><span class="high-name">Grades - </span>9.1 CGPA</li>
+                        <li id="time">August 2019 - July 2023</li>
+                        <li id="subjects">Computer Science Engineering (CSE)</li>
+                        <li id="school">Neotia Institute of Technology,
+                            Management and
+                            Science, <i>Kolkata, West Bengal</i></li>
+                        <li id="marks"><span class="high-name">Grades - </span>9.1 CGPA</li>
                     </ul>
                     </p>
                 </div>
                 <div class="inner-content">
-                    <p id="head">Senior Secondary (CBSE 12th)</p>
+                    <p id="head" class="degree">Senior Secondary (CBSE 12th)</p>
                     <p id="desc">
                     <ul id="list-items">
-                        <li>July 2016 - April 2018</li>
-                        <li>Physics + Chemistry + Mathematics (PCM)</li>
-                        <li><span class="high-name">School - </span> Saraswati Vidya Mandir <br><span
-                                class="tab2"></span> <i>Bettiah, Bihar</i>
+                        <li id="time">July 2016 - April 2018</li>
+                        <li id="subjects">Physics + Chemistry + Mathematics (PCM)</li>
+                        <li id="school">Saraswati Vidya Mandir, <i>Bettiah, Bihar</i>
                         </li>
-                        <li><span class="high-name">Grades - </span>75.2 %</li>
+                        <li id="marks"><span class="high-name">Grades - </span>75.2 %</li>
                     </ul>
                     </p>
                 </div>
                 <div class="inner-content">
-                    <p id="head">Higher Secondary (CBSE 10th)</p>
+                    <p id="head" class="degree">Higher Secondary (CBSE 10th)</p>
                     <p id="desc">
                     <ul id="list-items">
-                        <li>April 2015 - April 2016</li>
-                        <li><span class="high-name">School - </span> Saraswati Vidya Mandir <br><span
-                                class="tab2"></span> <i>Bettiah, Bihar</i>
+                        <li id="time">April 2015 - April 2016</li>
+                        <li id="school">Saraswati Vidya Mandir, <i>Bettiah, Bihar</i>
                         </li>
-                        <li><span class="high-name">Grades - </span>9.2 CGPA</li>
+                        <li id="marks"><span class="high-name">Grades - </span>9.2 CGPA</li>
                     </ul>
                     </p>
                 </div>
@@ -141,14 +148,14 @@
                     <p id="head">Technical Skills</p>
                     <p id="desc">
                     <ul id="list-items">
-                        <li><span class="high-name">Languages: </span>
+                        <li id="dot"><span class="high-name">Languages: </span>
                             C++, JavaScript(basic), SQL</li>
-                        <li><span class="high-name">Tools: </span>HTML, CSS, SQL PLUS, VS Studio</li>
-                        <li><span class="high-name">Interests: </span>Data Structures, Algorithms</li>
-                        <li><span class="high-name">Courseworks: </span>
+                        <li id="dot"><span class="high-name">Tools: </span>HTML, CSS, SQL PLUS, VS Studio</li>
+                        <li id="dot"><span class="high-name">Interests: </span>Data Structures, Algorithms</li>
+                        <li id="dot"><span class="high-name">Courseworks: </span>
                             <ul id="list-items">
-                                <li>Computer Networks</li>
-                                <li>Database Management Systems (DBMS)</li>
+                                <li id="tick">Computer Networks</li>
+                                <li id="tick">Database Management Systems (DBMS)</li>
                             </ul>
                         </li>
                     </ul>
@@ -159,11 +166,11 @@
                     <p id="head">Soft Skills</p>
                     <p id="desc">
                     <ul id="list-items">
-                        <li>Time Management</li>
-                        <li>Good Communication Skills</li>
-                        <li>Hardworking</li>
-                        <li>Problem Solver</li>
-                        <li>Optimistic</li>
+                        <li id="tick">Time Management</li>
+                        <li id="tick">Good Communication Skills</li>
+                        <li id="tick">Hardworking</li>
+                        <li id="tick">Problem Solver</li>
+                        <li id="tick">Optimistic</li>
                     </ul>
                     </p>
                 </div>
@@ -179,9 +186,9 @@
                     <a href="https://coder-vaani.github.io/Portfolio/" id="c-link" target="_blank">view</a>
                     <p id="desc">
                     <ul id="list-items">
-                        <li>Created a single page portfolio website from scratch</li>
-                        <li><span class="high-name">Tech: </span> HTML5, CSS</li>
-                        <li><span class="high-name">Tools: </span>Vs Code Editor</li>
+                        <li id="tick">Created a single page portfolio website from scratch</li>
+                        <li id="dot"><span class="high-name">Tech: </span> HTML5, CSS</li>
+                        <li id="dot"><span class="high-name">Tools: </span>Vs Code Editor</li>
                     </ul>
                     </p>
                 </div>
@@ -191,12 +198,12 @@
                     <p id="head">Tourism Management System</p>
                     <p id="desc">
                     <ul id="list-items">
-                        <li>Designed a database to store and maintain the details of
+                        <li id="tick">Designed a database to store and maintain the details of
                             Customers, Travel Agents, Packages, Hotels, Transports, Booking and Payments.
                         </li>
-                        <li>Normalisation concepts were used to design the database.</li>
-                        <li><span class="high-name">Tech: </span> SQL, DBMS</li>
-                        <li><span class="high-name">Tools: </span>SQL PLUS</li>
+                        <li id="tick">Normalisation concepts were used to design the database.</li>
+                        <li id="dot"><span class="high-name">Tech: </span> SQL, DBMS</li>
+                        <li id="dot"><span class="high-name">Tools: </span>SQL PLUS</li>
                     </ul>
                     </p>
                 </div>
@@ -214,8 +221,8 @@
                     </p>
                     <p id="desc">
                     <ul id="list-items">
-                        <li>5 stars in C++ on HackerRank</li>
-                        <li>2 stars in Problem Solving on HackerRank</li>
+                        <li id="tick">5 stars in C++ on HackerRank</li>
+                        <li id="tick">2 stars in Problem Solving on HackerRank</li>
                     </ul>
                     </p>
                 </div>
@@ -228,10 +235,10 @@
                     <p id="head">Course Certificates</p>
                     <p id="desc">
                     <ul id="list-items">
-                        <li>Programming in C/C++ <a
+                        <li id="tick">Programming in C/C++ <a
                                 href="https://trainings.internshala.com/view_certificate/8D6D3D7C-AE33-E8F0-A6F5-EFB359AFE2C2/B19660D7-367E-DA19-1612-BA481813528E/"
                                 id="c-link">view</a></li>
-                        <li>Data Structures & Algorithms <a
+                        <li id="tick">Data Structures & Algorithms <a
                                 href="https://trainings.internshala.com/view_certificate/53C43F5C-4C86-5FA9-EDB1-A697D7BE15B9/08F52126-9B95-8454-8867-67B03ED87FF7/"
                                 id="c-link">view</a></li>
                     </ul>
@@ -242,11 +249,11 @@
                     <p id="head">Coding Participation Certificates</p>
                     <p id="desc">
                     <ul id="list-items">
-                        <li>AccioJobs Code-wars <a href="acciojobs.png" id="c-link">view</a></li>
-                        <li>Uber Hacktag 2.0 <a
+                        <li id="tick">AccioJobs Code-wars <a href="acciojobs.png" id="c-link">view</a></li>
+                        <li id="tick">Uber Hacktag 2.0 <a
                                 href="https://unstop.com/certificate-preview/91f58804-c0e1-4209-be75-ec2906471585"
                                 id="c-link">view</a></li>
-                        <li>Microsoft Hackercamp 2022 <a
+                        <li id="tick">Microsoft Hackercamp 2022 <a
                                 href="https://unstop.com/certificate-preview/126c7100-bd69-419b-ba15-911b2087279e"
                                 id="c-link">view</a></li>
                     </ul>
@@ -286,7 +293,6 @@
 
         <!-- Content ends -->
     </main>
-
 
 </body>
 
